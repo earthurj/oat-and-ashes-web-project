@@ -1,0 +1,47 @@
+{
+  "products": {
+    "prod-001": {
+      "name": "Ethiopian Yirgacheffe",
+      "category": "Coffee Beans",
+      "origin": "Ethiopia",
+      "roast": "Light",
+      "type": "Single Origin",
+      "weight": "250g",
+      "price": "150000",
+      "description": "Bright and floral with notes of bergamot, lemon zest, and a honeyed finish. Washed process, grown at 1,800–2,200m in the Gedeo Zone.",
+      "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600&q=80",
+      "createdAt": "2026-07-10T00:33:41.000Z"
+    },
+    "prod-002": {
+      "name": "Sumatra Mandheling",
+      "category": "Coffee Beans",
+      "origin": "Indonesia",
+      "roast": "Dark",
+      "type": "Single Origin",
+      "weight": "500g",
+      "price": "135000",
+      "description": "Earthy, full-bodied, and syrupy with notes of dark chocolate, cedar, and a hint of tobacco. Wet-hulled process from the Aceh highlands.",
+      "image": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600&q=80",
+      "createdAt": "2026-07-10T00:33:41.000Z"
+    },
+    "prod-003": {
+      "name": "House Blend No. 7",
+      "category": "Coffee Beans",
+      "origin": "Colombia / Brazil",
+      "roast": "Medium",
+      "type": "Blend",
+      "weight": "500g",
+      "price": "120000",
+      "description": "Our signature daily drinker. 60% Colombian Huila for sweetness and body, 40% Brazilian Cerrado for nutty, chocolatey depth.",
+      "image": "https://images.unsplash.com/photo-1559496417-e7f25cb247f3?w=600&q=80",
+      "createdAt": "2026-07-10T00:33:41.000Z"
+    }
+  },
+  "users": {
+    "abc123def456": {
+      "name": "Arthur",
+      "email": "arthur@example.com",
+      "createdAt": "2026-07-10T00:00:00.000Z"
+    }
+  }
+}

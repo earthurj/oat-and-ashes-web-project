@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#FCF9F8] text-[#2C1810] font-body;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display uppercase tracking-tight;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-espresso text-cream px-6 py-3 font-display uppercase tracking-wider text-sm font-bold
+           border-2 border-espresso shadow-block
+           transition-all duration-150 ease-out
+           hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-block-hover
+           active:translate-x-[2px] active:translate-y-[2px] active:shadow-none;
+  }
+
+  .btn-secondary {
+    @apply bg-tan text-espresso px-6 py-3 font-display uppercase tracking-wider text-sm font-bold
+           border-2 border-espresso shadow-block
+           transition-all duration-150 ease-out
+           hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-block-hover
+           active:translate-x-[2px] active:translate-y-[2px] active:shadow-none;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent text-espresso px-4 py-2 font-display uppercase tracking-wider text-xs font-semibold
+           border-2 border-transparent
+           hover:border-espresso hover:shadow-block-sm
+           transition-all duration-150 ease-out;
+  }
+
+  .card {
+    @apply bg-cream border-2 border-espresso shadow-block p-5;
+  }
+
+  .divider {
+    @apply border-t-2 border-espresso;
+  }
+
+  .input-field {
+    @apply w-full bg-cream border-2 border-espresso px-4 py-3 font-body text-espresso
+           placeholder:text-surface-dim placeholder:font-mono placeholder:text-xs
+           focus:outline-none focus:ring-2 focus:ring-tan focus:border-espresso
+           transition-shadow duration-150;
+  }
+
+  .badge {
+    @apply inline-block px-2 py-0.5 font-mono text-[10px] uppercase tracking-wider
+           border border-espresso bg-tan/30 text-espresso;
+  }
+}
+
+/* Scrollbar — subtle */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-cream;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-surface-dim border border-espresso/20;
+}
